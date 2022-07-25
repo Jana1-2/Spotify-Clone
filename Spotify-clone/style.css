@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body{
+    background-color: black ;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav ul li{
+    padding: 0 5px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 89px;
+    background-color: rgb(18, 17, 17);
+    color: aliceblue;
+    
+}
+
+.brand img{
+    width: 125px;
+    padding: 0 8;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+   
+}
+
+.container{
+    min-height: 65vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    display: flex;
+    width: 70%;
+    border-radius: 12px;
+    margin: 23px auto;
+    
+    padding: 34px;
+    text-align: center;
+    background-image: url('bgm.gif') ;
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: center;
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+#myprogressbar{
+    width: 74vw;
+    cursor: pointer;
+
+}
+
+.songitemcontainer{
+    margin-top: 50px;
+}
+
+.songitem{
+    height: 30px;
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 100%;
+    margin: 12px 12px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.songname{
+    font-size: small;
+}
+
+.songitem img{
+    align-items: center;
+    width: 30px;
+    margin: 0 23px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.timestamp{
+    font-size: small;
+    margin-bottom: 12px;
+    margin: 10 20px;
+}
+
+.timestamp i{
+    align-items: center;
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 13vw;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: 0.5s ease-in;
+}
